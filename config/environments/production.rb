@@ -87,12 +87,12 @@ Luckybudhabeer::Application.configure do
   config.action_mailer.default :charset => "utf-8"
 
   config.action_mailer.smtp_settings = {
-    address: "smtp.bizmail.yahoo.com",
+    address: "smtp.gmail.com",
     port: 587,
-    domain: "basketball.luckybuddhabeer.com",
+    domain: "www.gmail.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "darin.pirkey@yahoo.com",
-    password: "oDesk#9908#"
+    user_name: "201.abhi@gmail.com",
+    password: "9423432387"
   }
 end
