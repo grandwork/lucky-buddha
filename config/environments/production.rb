@@ -78,7 +78,7 @@ Luckybudhabeer::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  config.action_mailer.default_url_options = { :host => 'www.luckybudhabeer.com' }
+  config.action_mailer.default_url_options = { :host => 'http://basketball.luckybuddhabeer.com/' }
   # ActionMailer Config
   # Setup for production - deliveries, no errors raised
   config.action_mailer.delivery_method = :smtp
@@ -89,7 +89,7 @@ Luckybudhabeer::Application.configure do
   config.action_mailer.smtp_settings = {
     address: "smtp.bizmail.yahoo.com",
     port: 587,
-    domain: "www.luckybhudhbeer.com",
+    domain: "basketball.luckybuddhabeer.com",
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "darin.pirkey@yahoo.com",
