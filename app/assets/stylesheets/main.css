@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans|Alex+Brush);
 
 html { 
-  background: url(/public/assets/background.jpg) no-repeat center center fixed;
+  background: url(/assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,9 +28,9 @@ header, section{width:100%; float:left;}
 
 .facebook, .twitter, .youtube{width:40px; height:40px; float:left; transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; opacity:0.2;}
 .facebook:hover, .twitter:hover, .youtube:hover{opacity:0.8;}
-.facebook{background:url(/public/assets/facebook-icon.png) no-repeat;}
-.twitter{background:url(/public/assets/twitter-icon.png) no-repeat;}
-.youtube{background:url(/public/assets/youtube-icon.png) no-repeat;}
+.facebook{background:url(/assets/facebook-icon.png) no-repeat;}
+.twitter{background:url(/assets/twitter-icon.png) no-repeat;}
+.youtube{background:url(/assets/youtube-icon.png) no-repeat;}
 .social-icon ul{margin:0; text-align:right; padding:0; display:inline-block; list-style:none;}
 .social-icon li{min-width:40px; margin:40px 0px 0 0; padding:0; list-style:none; display:inline-block;}
 /*.social-icon li:first-child{margin-right:0; margin-top:33px;}*/
