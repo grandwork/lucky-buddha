@@ -6,12 +6,12 @@ class User < ActiveRecord::Base
 
   #validates :terms_condition, presence: {message: 'Please read and accept the official rules.'}
 
-  #validates :terms_condition, acceptance: true
-  validates :terms_of_service, acceptance: true
+  #validates :terms_condition, presence: true
+  #validates :terms_of_service, acceptance: true
 
-  #validate do |user|
-  #  user.errors.add(:base, "Please read and accept the official rules.") if user.terms_condition.blank?
-  #end
+  validate do |user|
+    user.errors.add(:base, "Please read and accept the official rules.") if user.terms_condition.blank?
+  end
 
 
 end

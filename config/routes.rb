@@ -1,6 +1,14 @@
 Luckybudhabeer::Application.routes.draw do
   
-  devise_for :users
+  devise_for :users, :skip => [:sessions, :registrations]
+  as :user do
+    get 'signin' => 'devise/sessions#new', :as => :new_user_session
+    post 'signin' => 'devise/sessions#create', :as => :user_session
+    get 'signup' => 'devise/registrations#new', :as => :new_user_registration
+    post 'signup' => 'devise/registrations#create', :as => :user_registration
+    match 'signout' => 'devise/sessions#destroy', :as => :destroy_user_session,
+      :via => Devise.mappings[:user].sign_out_via
+  end
   root to: 'home#index'
 
   
