@@ -1,7 +1,7 @@
 Luckybudhabeer::Application.routes.draw do
   
-  devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)  
+  #devise_for :admin_users, ActiveAdmin::Devise.config
+  #ActiveAdmin.routes(self)  
   
   devise_for :users, :controllers => {:registrations => "registrations"}, :skip => [:sessions, :registrations]
   as :user do
