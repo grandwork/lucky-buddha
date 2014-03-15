@@ -93,7 +93,7 @@ Luckybudhabeer::Application.configure do
     domain: "www.gmail.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "201.abhi@gmail.com",
-    password: "9423432387"
+    user_name: "enlightenedbeercompany@gmail.com",
+    password: "oDesk#9908#"
   }
 end
