@@ -1,0 +1,22 @@
+<nav class="navbar" role="navigation">
+  <div class="container-fluid">    
+      <ul class="nav navbar-nav">        
+        <li class="btn btn-danger btn-sm">
+        	<%= link_to('My Bracket', root_path)%>        	
+        </li>
+        <li class="btn btn-danger btn-sm">
+        	<a href="#">Rankings</a>
+        </li>
+        <li class="btn btn-danger btn-sm">
+        	<a href="#">Official Rules</a>
+        </li>
+        <li class="btn btn-danger btn-sm">
+        	<%= link_to('About Lucky Buddha', "http://www.luckybuddhabeer.com" )%>        	
+       	</li>
+        <li class="btn btn-danger btn-sm">
+        	<a href="#">My Account</a>
+        </li>
+        <li class="pull-right btn btn-danger btn-sm"><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
+      </ul>    
+  </div>
+</nav>

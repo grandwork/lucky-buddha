@@ -1,0 +1,13 @@
+.navbar{
+  li{
+    margin-right: 3px;
+    padding: 0px;
+    a{      
+      color: #fff;
+      padding: 5px;
+      &:hover{
+        color: green;
+      }
+    }    
+  }
+}
