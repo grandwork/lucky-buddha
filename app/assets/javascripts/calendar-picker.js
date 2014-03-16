@@ -1,4 +1,8 @@
 $(function() {
-  $('.date-picker').datepicker();
+  $('.date-picker').datepicker({
+  	changeMonth: true,
+  	changeYear: true,
+  	showButtonPanel: true
+  });
 });
   
