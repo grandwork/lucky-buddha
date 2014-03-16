@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery.ui.datepicker
 //= require_tree .
+//= require jquery.modal
 
 
 setTimeout("$('#flash-msg-notice').html(' ');", 7000);
