@@ -15,7 +15,7 @@ Luckybudhabeer::Application.routes.draw do
   end
   root to: 'home#index'
 
-  resources :grackets, only: [ :index ]
+  get 'mybracket' => 'grackets#index', :as => :my_bracket
 
   
   # The priority is based upon order of creation: first created -> highest priority.

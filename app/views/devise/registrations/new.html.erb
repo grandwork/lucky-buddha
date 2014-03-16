@@ -1,6 +1,6 @@
 
-<div id="official-rules" style="display:none; height:80%; width:60%; padding:3% 3%;">
-	<p>
+<div id="official-rules" style="display:none; height:80%; width:60%; overflow:hidden;">
+	<p style="margin:3% 1% 1% 3%;overflow:scroll; height:90%;">
 		No purchase necessary. Sweepstakes begins on March 16th, 2014 and ends on March 20th, 2014. Sweepstakes open to legal US residents 21 years of age or older excluding residents of AL, AR, IN, KY, LA, ME, MO, NC, PA, TX, UT, and WV.  Visit http://basketball.luckybuddhabeer.com for Official Rules and how to enter. (C) 2014 Sabemos Beverages LLC, Carlsbad, CA. All Rights Reserved.<br/><br/>
 
 		OFFICIAL RULES:<br/><br/>
@@ -86,6 +86,15 @@
 	            	<%= f.text_field :date_of_birth, :class=>"form-control date-picker", :id=>"", :placeholder=>"MM/DD/YYYY" %>
 	            </div>
 	          </div>
+
+	          <div class="form-group">
+	          	<label for="inputPassword3" class="col-sm-4 control-label">Phone</label>
+	            <div class="col-sm-8">
+	            	<!--textarea class="form-control" rows="2" placeholder="Enter address"></textarea-->
+	            	<%= f.text_field :phone, :class=>"form-control", :id=>"", :placeholder=>"Enter phone number" %>
+	           	</div>
+	          </div>
+
 	          <div class="form-group">
 	          	<label for="inputPassword3" class="col-sm-4 control-label">Address Line 1</label>
 	            <div class="col-sm-8">

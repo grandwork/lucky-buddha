@@ -1,6 +1,6 @@
 <!-- empty gracket element -->
 	<div class="my_gracket"></div>
-
+	<div class="sec_gracket"></div>
 	<script type="text/javascript">
 		(function(win, doc, $){
 			
@@ -49,10 +49,23 @@
 					[ {"name" : "Jake Coutry", "id" : "jake-coutry", "seed" : 15}, {"name" : "Spencer Zettersten", "id" : "spencer-zettersten", "seed" : 16}]
 				]
 			];
-			
+			/*
+			win.TestData1 = [
+				[
+					[ {"name" : "Erik Zettersten", "id" : "erik-zettersten1", "seed" : 17, "displaySeed": "1", "score" : 47 }, {"name" : "Andrew Miller", "id" : "andrew-miller1", "seed" : 18} ],
+					[ {"name" : "James Coutry", "id" : "james-coutry1", "seed" : 19}, {"name" : "Sam Merrill", "id" : "sam-merrill1", "seed" : 20}],
+					[ {"name" : "Anothy Hopkins", "id" : "anthony-hopkins1", "seed" : 21}, {"name" : "Everett Zettersten", "id" : "everett-zettersten1", "seed" : 22} ],
+					[ {"name" : "John Scott", "id" : "john-scott1", "seed" : 23}, {"name" : "Teddy Koufus", "id" : "teddy-koufus1", "seed" : 24}],
+					[ {"name" : "Arnold Palmer", "id" : "arnold-palmer1", "seed" : 25}, {"name" : "Ryan Anderson", "id" : "ryan-anderson1", "seed" : 26} ],
+					[ {"name" : "Jesse James", "id" : "jesse-james1", "seed" : 27}, {"name" : "Scott Anderson", "id" : "scott-anderson1", "seed" : 28}],
+					[ {"name" : "Josh Groben", "id" : "josh-groben1", "seed" : 29}, {"name" : "Sammy Zettersten", "id" : "sammy-zettersten1", "seed" : 30} ],
+					[ {"name" : "Jake Coutry", "id" : "jake-coutry1", "seed" : 31}, {"name" : "Spencer Zettersten", "id" : "spencer-zettersten1", "seed" : 32}]
+				]
+			];*/
 			// initializer
 			
 			$(".my_gracket").gracket({ src : win.TestData});
+			//$(".sec_gracket").gracket({src : win.TestData1});
 			//$(".my_gracket").gracket({ src : win.TestData3});
 		})(window, document, jQuery);
 	</script>
